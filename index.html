@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div id="left-section">
+            <img src="logo.png" alt="Logo personalizat" id="logo">
+        </div>
+
+        <div id="center-section">
+        </div>
+
+        <div id="right-section">
+        </div>
+    </div>
+
+    <div id="center-content">
+        <h1 id="pageTitle">We appreciate your feedback. Share your thoughts with Bayonne Medical Center!</h1>
+        <p id="pageText">Thank you</p>
+
+        <div class="star-container">
+            <span class="star" onmouseover="hoverStars(1)" onmouseout="resetStars()" onclick="setRating(1)">&star;</span>
+            <span class="star" onmouseover="hoverStars(2)" onmouseout="resetStars()" onclick="setRating(2)">&star;</span>
+            <span class="star" onmouseover="hoverStars(3)" onmouseout="resetStars()" onclick="setRating(3)">&star;</span>
+            <span class="star" onmouseover="hoverStars(4)" onmouseout="resetStars()" onclick="setRating(4)">&star;</span>
+            <span class="star" onmouseover="hoverStars(5)" onmouseout="resetStars()" onclick="setRating(5)">&star;</span>
+        </div>
+        <button id="submit-btn" onclick="submitRating()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
