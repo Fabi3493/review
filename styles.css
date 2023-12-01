@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+#logo {
+    max-width: 120px;
+    height: auto;
+}
+
+#left-section,
+#center-section,
+#right-section {
+    display: flex;
+    align-items: center;
+}
+
+#center-content {
+    text-align: center;
+    width: 60%; /* Modificare pentru a ocupa 80% din lățimea ecranului pe dispozitive mobile */
+    margin: 20vh auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pageTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    color: #333;
+}
+
+#pageText {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 32px; /* Reducere dimensiunea pentru dispozitive mobile */
+    margin: 0 5px;
+    color: rgba(255, 204, 0, 0.4);
+    transition: 0.3s ease;
+}
+
+.star.inactive {
+    color: rgba(255, 204, 0, 1);
+}
+
+.star.active {
+    color: rgba(255, 204, 0, 1);
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: gold;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    border: 2px solid gold;
+    width: 120px;
+}
+
+#submit-btn:hover {
+    background-color: gold;
+    color: #fff;
+    width: 140px;
+}
+
+/* Adăugare reguli pentru dispozitivele mobile folosind media query */
+@media only screen and (max-width: 600px) {
+    #center-content {
+        width: 100%; /* Ocupă întreaga lățime a ecranului pe dispozitivele cu lățimea de 600px sau mai mică */
+    }
+
+    .star {
+        font-size: 24px; /* Reducere dimensiunea pentru dispozitive mobile cu ecran mic */
+    }
+}
