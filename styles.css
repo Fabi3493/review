@@ -97,7 +97,7 @@ body {
 }
 
 /* Adăugare reguli pentru dispozitivele mobile folosind media query */
-@media only screen {
+@media only screen and (max-width: 600px) {
     #center-content {
         width: 100%; /* Ocupă întreaga lățime a ecranului pe dispozitivele cu lățimea de 600px sau mai mică */
     }
