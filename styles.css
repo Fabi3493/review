@@ -103,14 +103,28 @@ body {
     }
 
     #pageTitle {
-        font-size: 36px;
+        font-size: 38px;
+        font-weight: normal;
     }
 
     #pageText {
         font-size: 30px;
     }
+
+    .logo {
+        max-width: 140px;
+    }
     
     .star {
-        font-size: 36px; /* Reducere dimensiunea pentru dispozitive mobile cu ecran mic */
+        font-size: 48px; /* Reducere dimensiunea pentru dispozitive mobile cu ecran mic */
+    }
+
+    #submit-btn {
+        width: 40%;
+        font-size: 32px;
+    }
+
+    #submit-btn {
+        width: 60%;
     }
 }
