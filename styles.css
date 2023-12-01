@@ -97,7 +97,7 @@ body {
 }
 
 /* Adăugare reguli pentru dispozitivele mobile folosind media query */
-@media only screen and (max-width: 600px) {
+@media only screen {
     #center-content {
         width: 100%; /* Ocupă întreaga lățime a ecranului pe dispozitivele cu lățimea de 600px sau mai mică */
     }
@@ -109,7 +109,7 @@ body {
 
     #pageText {
         font-size: 20px;
-		font-weight: lighter;
+	font-weight: lighter;
     }
 
     .logo {
@@ -122,7 +122,7 @@ body {
 
     #submit-btn {
         width: 40%;
-		background-color: transparent;
+	background-color: transparent;
     }
 
     #submit-btn:hover {
@@ -131,6 +131,6 @@ body {
 
     #center-content {
         background-color: transparent;
-		box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
     }
 }
