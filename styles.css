@@ -127,4 +127,8 @@ body {
     #submit-btn {
         width: 60%;
     }
+
+    #center-content {
+        background-color: transparent;
+    }
 }
