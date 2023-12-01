@@ -102,7 +102,15 @@ body {
         width: 100%; /* Ocupă întreaga lățime a ecranului pe dispozitivele cu lățimea de 600px sau mai mică */
     }
 
+    #pageTitle {
+        font-size: 36px;
+    }
+
+    #pageText {
+        font-size: 30px;
+    }
+    
     .star {
-        font-size: 24px; /* Reducere dimensiunea pentru dispozitive mobile cu ecran mic */
+        font-size: 36px; /* Reducere dimensiunea pentru dispozitive mobile cu ecran mic */
     }
 }
